@@ -1,12 +1,8 @@
-FROM ubuntu
-
-# Image to pull hobbit monitoring server
-
-MAINTAINER Oskar Agustsson
+FROM ubuntu:latest
+MAINTAINER Oskar Agustsson <oskar.agustsson@gmail.com>
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
-
-RUN apt-get update
+RUN apt-get update # Tue 21 Jan 2014 16:07:00 CET
 RUN apt-get -y upgrade
 
 RUN apt-get install -y hobbit apache2 wget nano python-setuptools
