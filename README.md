@@ -1,6 +1,6 @@
 ### Docker-hobbit
 
-This is a recipe to put Hobbit monitoring software in a docker container using Linux, Apache + Hobbit + Python setup tools.
+This is a recipe to put Xymon (Hobbit) monitoring software in a docker container using Linux, Apache + Xymon + Python setup tools.
 
 Enjoy.
 
@@ -28,4 +28,4 @@ Then find the external port exposed from the container:
 
 	docker port <container-id> 80
 
-Visit in a web browser http://<yourhost>:<exposed_port_number>/hobbit/
+Visit in a web browser http://yourhost:<exposed_port_number>/hobbit/
