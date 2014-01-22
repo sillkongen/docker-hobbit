@@ -28,4 +28,5 @@ Then find the external port exposed from the container:
 
 	docker port <container-id> 80
 
-Visit in a web browser http://yourhost:<exposed_port_number>/hobbit/
+Visit in a web browser:
+	http://<yourhost>:<exposed_port_number>/hobbit/
