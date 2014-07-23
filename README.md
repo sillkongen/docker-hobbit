@@ -18,7 +18,7 @@ If you ahve installed Docker and cloned the repository it is just a matter of:
 
 You could also build it directly from the github repository:
 
-docker build -rm -t <yourname/hobbit> https://github.com/sillkongen/docker-hobbit.git
+	docker build -rm -t <yourname/hobbit> https://github.com/sillkongen/docker-hobbit.git
 
 Then run it:
 
